@@ -102,7 +102,7 @@ do
 
 
 //Toplam tutar belirleniyor......
-decimal sumPrice = locationsHoliday[location] + (personsHoliday * travelPrice);
+decimal sumPrice = (locationsHoliday[location] + travelPrice) * personsHoliday;
 Console.Write($"\n\nÖdemeniz gereken toplam fiyat..:{sumPrice}\n");
 
 
