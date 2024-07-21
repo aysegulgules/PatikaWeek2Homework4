@@ -48,19 +48,11 @@ do
     string persons=Console.ReadLine();
 
 
-    if (int.TryParse(persons, out personsHoliday))
-    {
-        if(personsHoliday <1)
+        if (!(int.TryParse(persons, out personsHoliday) && personsHoliday > 0))
         {
-            Console.WriteLine("\n Kişi sayısını 1'den küçük bir sayı girdiniz, lütfen tekrar deneyiniz!..");
+            Console.WriteLine("\n Hatalı giriş, lütfen geçerli bir kişi sayısı giriniz!.. ");
             wrongHoliday = true;
         }
-    }
-    else
-    {
-        wrongHoliday = true;
-        Console.WriteLine("\n Bir sayı girmelisiniz, lütfen tekrar deneyiniz!..");
-    }
 
 }while (wrongHoliday);
 
