@@ -1,1 +1,1 @@
-# PatikaWeek2Homework4
+<span style="font-size:0.5em;"> # PatikaWeek2Homework4 --Bir yardımcı seyehat uygulaması ile kullanıcılarımızın planlayacakları 3 günlük bir tatilde harcayacakları yaklaşık tutarı hesaplamalarına yardımcı oluyoruz.</span>
